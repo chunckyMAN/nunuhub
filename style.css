@@ -1,8 +1,14 @@
+/******************************************************************************/
+                                  /*GENERAL*/
+/******************************************************************************/
+
 * {
-  border: 1px solid #000;
+  box-sizing: border-box;
+  /*border: 1px solid #000;*/
 }
 
 body {
+  height: 100%;
   width: 80%;
   margin: 0 10%;
   padding: 0;
@@ -12,28 +18,40 @@ h2 {
   text-align: center;
 }
 
-.ceiling-menu {
+
+
+/******************************************************************************/
+                               /*CEILING MENU*/
+/******************************************************************************/
+
+#ceiling-menu {
+  display: block;
   width: 100%;
   height: 60px;
   text-align: right;
   background-color: #FFD300;
 }
 
-.ceiling-menu a {
-  width: 25px;
-  height: 25px;
-  margin-bottom: 25px;
+#ceiling-menu a {
+  height: 50%;
+  width: 10%;
+  margin: 25% auto;
+  padding: 0;
+  clear: left;
   text-decoration: none;
+  text-align: center;
+  border: 1px solid #000;
 }
 
-.ceiling-menu img {
-  display: inline;
-  width: 50px;
-  height: 50px;
-  margin: 5px 5px;
-  padding: 0;
-  border-radius: 100%;
+#ceiling-menu img {
+  radius: 100%;
 }
+
+
+
+/******************************************************************************/
+                               /*PRODUCT DESCRIPTION*/
+/******************************************************************************/
 
 .nunuhub-logo {
   height: 215px;
@@ -41,6 +59,11 @@ h2 {
   margin: .5% 42%;
   padding: 0;
 }
+
+
+/******************************************************************************/
+                               /*PRODUCT DESCRIPTION*/
+/******************************************************************************/
 
 .product-demo {
   height: 250px;
@@ -58,15 +81,12 @@ h2 {
   padding: 0;
 }
 
-.features-wrapper {
-  margin: 0 5%;
-}
-
 .feature {
   height: 80%;
   width: 35%;
   text-align: center;
-  margin: 0 auto;
+  margin: .75% 7%;
   padding: 0;
   display: inline-block;
+  clear: left;
 }
